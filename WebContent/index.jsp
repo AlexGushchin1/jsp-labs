@@ -1,8 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <html>
   <head>
     <title>Sample "Hello, World" Application</title>
   </head>
   <body bgcolor=white>
+<jsp:include page="jsp/header.jsp" flush="false"></jsp:include>
+
 
     <table border="0" cellpadding="10">
       <tr>
@@ -10,7 +14,7 @@
          
         </td>
         <td>
-          <h1>Sample "Hello, World" 111</h1>
+          <h1>test 101</h1>
         </td>
       </tr>
     </table>
@@ -23,10 +27,8 @@
     </ul>
 
 
-<form  method="get" action="/jsp-lab01_1/search">
-<input type="text" name="keyword">
-<input type ="submit" value="search">
-</form>
+
+
 
   </body>
 </html>
