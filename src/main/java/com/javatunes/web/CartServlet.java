@@ -56,6 +56,8 @@ public class CartServlet extends HttpServlet {
 	      // Read the parameter from the "Add to Cart" link
 	      String itemID = request.getParameter("itemID");
 
+	      
+	      
 	      HttpSession session = request.getSession();
 
 	    
