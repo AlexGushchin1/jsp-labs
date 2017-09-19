@@ -60,7 +60,9 @@ public class CartServlet extends HttpServlet {
 
 	    
 	      Collection<MusicItem> cart = (Collection<MusicItem>) session.getAttribute("cart");
-	      if (cart == null)  // first visit: session does not have a "cart"
+	      if (cart == null)  
+	    	  
+	    	  // first visit: session does not have a "cart"
 	      {
 	         cart = new ArrayList<MusicItem>();  
 	         session.setAttribute("cart", cart);  
