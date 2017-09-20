@@ -16,9 +16,7 @@ import main.java.com.javatunes.util.SearchUtility;
 public class CartServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+
     public CartServlet() {
         super();
         // TODO Auto-generated constructor stub
